@@ -1,0 +1,146 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 2.0;
+    color: rgb(146, 141, 141);
+    background-color: black;
+}
+.nav a:hover{
+    background-color: grey;
+    color: black;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    opacity: 0.90;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+.firstimg, .secondimg, .thirdimg, .fourthimg{
+    position: relative;
+    display: flex;
+    opacity: 0.80;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.firstimg{
+    background-image: url('../img2/dirkfade.jpg');
+    min-height: 100%;
+}
+.secondimg{
+    background-image: url('../img2/yungdirk.jfif');
+    min-height: 100%;
+}
+.thirdimg{
+    background-image: url('../img2/dirkandkidd.jpg');
+    min-height: 100%;
+}
+.fourthimg{
+    background-image: url('../img2/multiple.jpg');
+    min-height: 100%;
+}
+.section{
+    text-align: center;
+    padding: 20px 100px;
+}
+.container{
+    position: absolute;
+    top: -435px;
+    right: 500px;
+    width: auto;
+}
+.blackborder{
+    background-color: rgb(17, 17, 37);
+    color: aliceblue;
+    text-align: center;
+    padding: 50px 200px;
+
+}
+.whiteborder{
+    background-color: rgba(63, 63, 82, 0.438);
+    color: aliceblue;
+    text-align: center;
+    padding: 50px 200px;
+}   
+.para1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.border{
+    background-color: rgba(46, 51, 46, 0.384);
+    color: white;
+    padding: 25px;
+    
+}
+.tableheader{
+    color: white;
+}
+.tablecontent{
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 15px ;
+}
+.tablecontent thead tr{
+    background-color: peachpuff;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+.tablecontent thead th{
+    padding: 12px 15px;
+}
+.tablecontent thead td{
+    padding: 12px 15px;
+}
+.tablecontent tbody tr{
+    border-bottom: 1px solid black;
+}
+.tablecontent tbody{
+    background-color: grey;
+}
+.tablecontent tbody tr:last-of-type{
+    border-bottom: 2px solid peachpuff;
+}
+.green {
+    background-color: green;
+    
+}
+.red {
+    background-color: red;
+}
+
+.referencetext{
+    text-align: left;
+}
+.refindent{
+    text-align: left;
+    text-indent: 50px;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
